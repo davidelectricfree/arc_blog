@@ -5,6 +5,7 @@ layout: post
 tags:
 - Jekyll
 - Github
+- 中文
 excerpt: 没想到第一次接触 Github 是用它给自己搭一个博客，总的来说，GitHub + jekyll 都是我比较陌生的，在本文中，零零碎碎记录一些在搭博客过程中遇到的一些小问题。
 ---
 
