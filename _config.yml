@@ -1,0 +1,22 @@
+name: "Blog of Zhiqiang Hu"
+description: "Automation Electric Engineer's Blog by Zhiqiang Hu"
+
+url: "http://zhiqianghu.com/blog"
+root: /blog/
+loadingImg: "http://zhiqianghu.com/blog/img/loading.gif"
+filePath: "http://zhiqianghu.com/blog/img/"
+
+timezone: Asia/Shanghai
+
+paginate: 16
+paginate_path: "/page:num"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+
+permalink: pretty
+
+gems:
+- jekyll-paginate

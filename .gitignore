@@ -1,0 +1,8 @@
+_site/
+.sass-cache/
+css/*.map
+.DS_Store
+node_modules/
+.jekyll-metadata
+Oliver_notes/
+Oliver_posts/
