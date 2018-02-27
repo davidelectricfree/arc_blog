@@ -18,5 +18,6 @@ excerpt: 没想到第一次接触 Github 是用它给自己搭一个博客，总
 
 　　　　a. [一步步在GitHub上创建博客主页(3)]({{ site.url }}http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-03.html)
 
-2. 在 Markdown 下实现首行缩进
+3. 在 Markdown 下实现首行缩进
+
 方式1：可将输入法切换到全角模式，在需要输入的地方输入两个空格即可。
