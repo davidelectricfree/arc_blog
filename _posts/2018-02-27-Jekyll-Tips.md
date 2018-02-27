@@ -14,10 +14,10 @@ excerpt: 没想到第一次接触 Github 是用它给自己搭一个博客，总
 
 　　Anyway 还是对问题进行忠实记录，也算是对花费了这么多时间的自己一个答复吧。
 
-1. GitHub Pages 及在使用 GitHub Pages 对博客进行搭建时，期间，对域名购买、域名解析、域名分级、CNAME 等不少知识有所疑惑，零零碎碎查询了不少资料；现贴出如下：
+1 GitHub Pages 及在使用 GitHub Pages 对博客进行搭建时，期间，对域名购买、域名解析、域名分级、CNAME 等不少知识有所疑惑，零零碎碎查询了不少资料；现贴出如下：
 
-　　　　a. [一步步在GitHub上创建博客主页(3)]({{ site.url }}http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-03.html)
+　　a. [一步步在GitHub上创建博客主页(3)]({{ site.url }}http://www.pchou.info/ssgithubPage/2013-01-05-build-github-blog-page-03.html)
 
-3. 在 Markdown 下实现首行缩进
+2 在 Markdown 下实现首行缩进
 
-方式1：可将输入法切换到全角模式，在需要输入的地方输入两个空格即可。
+　　方式1：可将输入法切换到全角模式，在需要输入的地方输入两个空格即可。
