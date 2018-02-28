@@ -22,3 +22,5 @@ excerpt: 没想到第一次接触 Github 是用它给自己搭一个博客，总
 2 在 Markdown 下实现首行缩进
 
 　　方式1：可将输入法切换到全角模式，在需要输入的地方输入两个空格即可。
+
+3 修改完后，使用 Ruby Command terminer 进入到 Blog 所在的文件夹中，jekyll serve --safe --watch，在[网页] ({{ site.url }}http://localhost:4000/index.html) 中可在本地看到编译结果。

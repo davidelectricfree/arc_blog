@@ -4,7 +4,7 @@ function loadMusic() {
         $('#music-content').append('<iframe frameborder="no" border="0"'
                 + ' marginwidth="0" marginheight="0" width=330 height=450'
                 + ' src="http://music.163.com/outchain/player?type=0'
-                + '&id=49176408&auto=0&height=430"></iframe>');
+                + '&id=31721559&auto=0&height=430"></iframe>');
     }
 }
 
@@ -33,15 +33,15 @@ function processPageView(rows) {
     $('.post-block').each(function() {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
-            myPath = myPath.slice('http://zhangwenli.com'.length);
+            myPath = myPath.slice('http://zhiqianghu.com'.length);
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
                 var thatPath = rows[i][0];
                 var queryId = thatPath.indexOf('?');
                 var mainPath = queryId >= 0 ? thatPath.slice(0, queryId) : thatPath;
-                if (thatPath === myPath || mainPath === myPath 
-                        || mainPath === myPath + 'index.html' 
+                if (thatPath === myPath || mainPath === myPath
+                        || mainPath === myPath + 'index.html'
                         || myPath === mainPath + 'index.html') {
                     cnt += parseInt(rows[i][1]);
                 }

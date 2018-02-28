@@ -7,7 +7,7 @@
             (function() {
               var hm = document.createElement("script");
               //hm.src = "//hm.baidu.com/hm.js?dcee78e565eeaedc76defba5d096b344";
-              var s = document.getElementsByTagName("script")[0]; 
+              var s = document.getElementsByTagName("script")[0];
               s.parentNode.insertBefore(hm, s);
             })();
 
@@ -27,7 +27,7 @@
         <link rel="shortcut icon" href="{{ site.filePath }}/owl.ico" />
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.min.css" />
     </head>
-    
+
     <body>
 
         {% include music.html %}
@@ -39,6 +39,6 @@
             {% endif %}
         {% endfor %}
         <div id="mobile-nav">
-            <a href="http://zhangwenli.com" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNavMobile', window.location.pathname]);">{% if isZn %}首页{% else %}Home{% endif %}</a><a href="{{ site.url }}" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InNavMobile', window.location.pathname]);">{% if isZn %}博客{% else %}Blog{% endif %}</a>
+            <a href="http://zhiqianghu.com" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNavMobile', window.location.pathname]);">{% if isZn %}首页{% else %}Home{% endif %}</a><a href="{{ site.url }}" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InNavMobile', window.location.pathname]);">{% if isZn %}博客{% else %}Blog{% endif %}</a>
         </div>
         <div class="contentDiv">
