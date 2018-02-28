@@ -1,6 +1,6 @@
 ---
 title: Jekyll 技巧相关
-time: 2018-2-27 21:08:32
+time: 2018.02.27 21:08:32
 layout: post
 tags:
 - Jekyll
